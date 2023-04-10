@@ -1,12 +1,11 @@
 .profile {
-  width: 550px;
-  padding-top: 50px;
-  margin-top: 40px;
+  width: 300px;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 25px;
   color: #010101;
   background-color: #ffffff;
   border: solid 1px #d8e0ea;
@@ -16,32 +15,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  padding-bottom: 40px;
+  gap: 10px;
+  padding-bottom: 30px;
 }
 
 .avatar {
-  width: 200px;
+  width: 100px;
   border-radius: 50%;
 }
 
 .name {
-  font-weight: 600;
+  font-weight: 500;
+  margin: 0;
 }
 
 .tag {
-  font-size: 30px;
+  margin: 0;
+  font-size: 20px;
   color: #b0b0b0;
 }
 
 .location {
-  font-size: 30px;
+  margin: 0;
+  font-size: 20px;
   color: #b0b0b0;
 }
 
 .stats {
+  width: 300px;
   display: flex;
-  font-size: 30px;
+  padding: 0;
+  font-size: 20px;
 }
 
 .statsItem {
@@ -51,8 +55,8 @@
   justify-content: center;
   gap: 12px;
 
-  height: 150px;
-  width: calc(450px / 3);
+  height: 100px;
+  width: calc(350px / 3);
   background-color: #f0f0f0;
   border: 0.5px solid #b0b0b0;
 }

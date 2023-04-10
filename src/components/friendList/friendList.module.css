@@ -1,9 +1,9 @@
 .friendList {
-  width: 450px;
-  margin-top: 40px;
+  width: 400px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 35px;
+  font-size: 20px;
 }
